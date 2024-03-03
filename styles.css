@@ -1,0 +1,80 @@
+nav {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+  position: fixed;
+  top: 0px;
+  background-color: rgb(211, 218, 219);;
+  width: 100%;
+  height: 60px;
+  z-index:1;
+  }
+  .logo{
+    width: 350px;
+    height: 40px;
+  }
+  .links{
+    margin-left: auto;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    gap:70px;
+    
+  }
+  .nav-link{
+   text-decoration: none;
+   color: black;
+   font-family: sans-serif;
+   font-size: 18;
+  }
+  body{
+    margin-top: 60px;
+    background-color:rgb(211, 218, 219);
+  }
+  .page{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  }
+  .email{
+    width: 300px;
+      height: 30px;
+  }
+  .get{
+   max-width: 150px;
+      width: 100%;
+      height: 30px;
+      background-color: #f1c40f;
+  }
+  .ccm{
+    display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  width: 70%;
+  }
+  h1 {
+    font-family: sans-serif;
+  }
+  video{
+    width: 500px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  #info{
+    display: flex;
+    flex-direction: column;
+   align-items:end;
+   width: 90%;
+  }
+  @media (max-width: 100px) {
+    html {
+      width: 150;
+    }
+}
